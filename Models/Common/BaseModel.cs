@@ -1,4 +1,4 @@
-namespace AspnetCoreMvcFull.Models.Common
+namespace PestFree.Models.Common
 {
   public class BaseModel
   {
