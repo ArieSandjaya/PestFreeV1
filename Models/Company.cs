@@ -17,7 +17,6 @@ namespace PestFree.Models
 
     public bool IsActive { get; set; }
 
-    public byte[]? Icon {  get; set; } 
-    
+    public string? PathImage { get; set; }
   }
 }
