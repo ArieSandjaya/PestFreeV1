@@ -13,12 +13,10 @@ namespace PestFree.Controllers
   public class CompaniesController : Controller
   {
     private readonly AppDbContextcs _context;
-    private readonly IServer _server;
 
-    public CompaniesController(AppDbContextcs context, IServer _svr)
+    public CompaniesController(AppDbContextcs context)
     {
       _context = context;
-      _server = _svr;
     }
     // GET: CompaniesController
     public async Task<IActionResult> Index()
